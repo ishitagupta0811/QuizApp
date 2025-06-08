@@ -8,6 +8,7 @@ export default function Quiz(){
 
     const activeQuestionIndex = userAnswers.length;
     // Comment Added
+    // Comment for testing purpose
     const quizIsComplete = activeQuestionIndex === QUESTIONS.length;
 
     function handleSelectAnswer(selectedAnswer){
